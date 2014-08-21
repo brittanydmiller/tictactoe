@@ -1,0 +1,8 @@
+<div id="sign-up-form">
+  <%= form_for user, remote: true do |f| %>
+    <%= f.text_field :email, placeholder: "Email" %><br>
+    <%= password_field_tag :password, nil, placeholder: "Password" %><br>
+    <%= text_field_tag :initial, nil, placeholder: "W.I.N" %><br>
+    <%= f.submit "Sign Up" %>
+  <% end %>
+</div>
