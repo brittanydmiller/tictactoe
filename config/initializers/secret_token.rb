@@ -1,0 +1,1 @@
+Tictactoe::Application.config.secret_key_base = "c025a5f5b1a055a9d62bc2093544fc20984700e6604ddc14ada3bc5c8bc26c6c49c0a0f49c21a6de836b8a52287e15dd46060c00913e439dc4ace1fb2af37758"
